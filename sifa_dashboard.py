@@ -1,3 +1,12 @@
+"""
+Sifa-Score AI Dashboard
+-----------------------
+An explainable AI (XAI) tool for credit risk assessment in Kenya.
+Inspired by SDG #1: No Poverty.
+
+Author: Derick Gikonyo
+Date: February 2026
+"""
 import streamlit as st
 import pandas as pd
 import shap
@@ -35,6 +44,20 @@ def train_sifa_model():
     
     # Advanced Feature Engineering (The 89% Tenets)
     def eng_features(data):
+        """
+        Cleans and transforms raw Kiva loan data into high-signal ML features.
+
+        This function implements the 'Senior ML Tenets':
+        - Gender parity ratios for group loans.
+        - Economic density (loan amount per borrower).
+        - Seasonal time-series features (month/day) to capture local market cycles.
+
+        Args:
+            data (pd.DataFrame): Raw Kiva loan data filtered for Kenya.
+
+        Returns:
+            pd.DataFrame: A one-hot encoded feature matrix with 89% predictive power.
+        """
         # Gender Parsing
         def get_g(s):
             if pd.isna(s) or s == '': return 1, 0.5
