@@ -38,3 +38,6 @@ streamlit run sifa_dashboard.py
 
 🌍SDG Inspiration
 This project was inspired by UN Sustainable Development Goal #1 (No Poverty). By making credit systems more transparent and accessible, we aim to empower small business owners in the developing world to better understand and navigate the financial landscape.
+
+Screenshot of the Streamlit
+<img width="1866" height="851" alt="image" src="https://github.com/user-attachments/assets/2be5dd9d-8de0-487e-bb43-4fc05d2b47cb" />
