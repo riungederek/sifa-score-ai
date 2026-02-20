@@ -122,6 +122,11 @@ Generates a personalised borrower letter via Llama 3 — celebratory for approva
 This project was built around **UN Sustainable Development Goal #1 — No Poverty**. By making credit systems transparent and accessible, Sifa-Score aims to empower small business owners in Kenya to understand and navigate the financial landscape on their own terms.
 
 ---
+##Images
+<img width="1633" height="657" alt="image" src="https://github.com/user-attachments/assets/2a411052-bd75-42db-a119-87f9fe95798c" />
+<img width="1907" height="894" alt="image" src="https://github.com/user-attachments/assets/79ff8b96-9460-4322-81d3-f55faf8b9e0d" />
+
+
 
 ## 👤 Author
 
